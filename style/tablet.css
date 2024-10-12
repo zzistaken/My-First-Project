@@ -1,0 +1,42 @@
+/* TABLET CSS */
+@media (max-width: 1024px) {
+  aside {
+    min-width: 200px;
+    max-width: 200px;
+  }
+  .layoutpage {
+    margin-left: 200px;
+  }
+  .homecontent {
+    flex-direction: column;
+  }
+  .personal,
+  .socialmedia {
+    width: 100%;
+  }
+  .socialmedia {
+    margin-left: 0;
+  }
+  video,
+  .sound {
+    width: 100%;
+  }
+  .formarea {
+    align-items: start;
+    margin-top: 1rem;
+  }
+  .form {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  form .input {
+    width: 100%;
+  }
+  .radio {
+    display: flex;
+  }
+  textarea {
+    min-width: 360px;
+    max-width: 360px;
+  }
+}

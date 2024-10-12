@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Zzistaken - Admin Panel</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/zzistaken-dark.png"
+      type="image/x-icon"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style/main.css" />
+    <!-- Tablet CSS -->
+    <link rel="stylesheet" href="/style/tablet.css" />
+    <!-- Mobile CSS -->
+    <link rel="stylesheet" href="/style/Mobile.css" />
+  </head>
+  <body class="bg-dark">
+    <aside id="sidebar" class="bg-regular">
+      <div class="logo-area">
+        <a
+          class="header-text"
+          id="logo"
+          href="https://github.com/zzistaken"
+          target="_blank"
+          ><img
+            height="48px"
+            src="/images/zzistaken-dark.png"
+            alt="Zzistaken"
+          />Dashboard</a
+        >
+      </div>
+      <nav>
+        <ul>
+          <li class="btn-nav">
+            <i class="fa-solid fa-house"></i><a href="/home.html">Home</a>
+          </li>
+          <li class="btn-nav">
+            <i class="fa-solid fa-user-group"></i
+            ><a href="/employees.html">Employees</a>
+          </li>
+          <li class="btn-nav">
+            <i class="fa-solid fa-toggle-off"></i><a href="/form.html">Form</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-exit">
+        <a href="#"><i class="fa-solid fa-door-open"></i>Exit</a>
+      </button>
+    </aside>
+    <section class="layoutpage">
+      <ul id="mobileMenu">
+        <li><i class="fa-solid fa-house"></i><a href="/home.html">Home</a></li>
+        <li>
+          <i class="fa-solid fa-user-group"></i
+          ><a href="/employees.html">Employees</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-toggle-off"></i><a href="/form.html">Form</a>
+        </li>
+      </ul>
+      <div class="welcome">
+        <h1 class="header-text">Table Element</h1>
+        <p>
+          On this page I styled the <strong id="html5">HTML5</strong> table
+          element with <strong id="css3">CSS3</strong> and used the nth child
+          selector.
+        </p>
+      </div>
+      <div class="tablebox">
+        <table style="width: 100%">
+          <thead>
+            <tr>
+              <th></th>
+              <th>USER</th>
+              <th>ROLE</th>
+              <th>SALARY</th>
+              <th>STATUS</th>
+              <th>ACTIONS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 32px">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                </label>
+              </td>
+              <td>Emirhan Çam</td>
+              <td>Front End Developer</td>
+              <td>2200$</td>
+              <td>Online</td>
+              <td>
+                <i id="deleteicon" class="fa-solid fa-trash-can"></i
+                ><i class="fa-solid fa-pencil"></i
+                ><i class="fa-solid fa-eye"></i>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 32px">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                </label>
+              </td>
+              <td>Umut Can Tümer</td>
+              <td>Back End Developer</td>
+              <td>2200$</td>
+              <td>Online</td>
+              <td>
+                <i id="deleteicon" class="fa-solid fa-trash-can"></i
+                ><i class="fa-solid fa-pencil"></i
+                ><i class="fa-solid fa-eye"></i>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 32px">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                </label>
+              </td>
+              <td>Elif Kaya</td>
+              <td>UI/UX Designer</td>
+              <td>1800$</td>
+              <td>Offline</td>
+              <td>
+                <i id="deleteicon" class="fa-solid fa-trash-can"></i
+                ><i class="fa-solid fa-pencil"></i
+                ><i class="fa-solid fa-eye"></i>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 32px">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                </label>
+              </td>
+              <td>Ahmet Demir</td>
+              <td>Full Stack Developer</td>
+              <td>2000$</td>
+              <td>Offline</td>
+              <td>
+                <i id="deleteicon" class="fa-solid fa-trash-can"></i
+                ><i class="fa-solid fa-pencil"></i
+                ><i class="fa-solid fa-eye"></i>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 32px">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                </label>
+              </td>
+              <td>Melis Güneş</td>
+              <td>Project Manager</td>
+              <td>2200$</td>
+              <td>Online</td>
+              <td>
+                <i id="deleteicon" class="fa-solid fa-trash-can"></i
+                ><i class="fa-solid fa-pencil"></i
+                ><i class="fa-solid fa-eye"></i>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 32px">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                </label>
+              </td>
+              <td>Burak Aydın</td>
+              <td>Data Scientist</td>
+              <td>1800$</td>
+              <td>Offline</td>
+              <td>
+                <i id="deleteicon" class="fa-solid fa-trash-can"></i
+                ><i class="fa-solid fa-pencil"></i
+                ><i class="fa-solid fa-eye"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

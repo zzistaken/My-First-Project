@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Zzistaken - Admin Panel</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptate totam repudiandae sequi, accusamus debitis saepe.">
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/zzistaken-dark.png"
+      type="image/x-icon"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style/main.css" />
+    <!-- Tablet CSS -->
+    <link rel="stylesheet" href="/style/tablet.css">
+    <!-- Mobile CSS -->
+    <link rel="stylesheet" href="/style/Mobile.css">
+  </head>
+  <body class="bg-dark">
+    <aside id="sidebar" class="bg-regular">
+      <div class="logo-area">
+        <a
+          class="header-text"
+          id="logo"
+          href="https://github.com/zzistaken"
+          target="_blank"
+          ><img
+            height="48px"
+            src="/images/zzistaken-dark.png"
+            alt="Zzistaken"
+          />Dashboard</a
+        >
+      </div>
+      <nav>
+        <ul>
+          <li class="btn-nav">
+            <i class="fa-solid fa-house"></i><a href="/home.html">Home</a>
+          </li>
+          <li class="btn-nav">
+            <i class="fa-solid fa-user-group"></i
+            ><a href="/employees.html">Employees</a>
+          </li>
+          <li class="btn-nav">
+            <i class="fa-solid fa-toggle-off"></i><a href="/form.html">Form</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-exit">
+        <a href="#"><i class="fa-solid fa-door-open"></i>Exit</a>
+      </button>
+    </aside>
+    <section class="layoutpage">
+      <ul id="mobileMenu">
+        <li><i class="fa-solid fa-house"></i><a href="/home.html">Home</a></li>
+        <li><i class="fa-solid fa-user-group"></i
+          ><a href="/employees.html">Employees</a></li>
+        <li><i class="fa-solid fa-toggle-off"></i><a href="/form.html">Form</a></li>
+      </ul>
+      <div class="welcome">
+        <h1 class="header-text">Hi 👋, I'm Emirhan Çam</h1>
+        <p>
+          This is my first project. I used only
+          <strong id="html5">HTML5</strong> and
+          <strong id="css3">CSS3</strong> and tried to use all the things I
+          learned as much as possible. You can access the other pages from the
+          left side menu.
+        </p>
+      </div>
+      <div class="homecontent">
+        <div class="personal">
+          <img src="images/emirhancam.png" alt="Emirhan Çam">
+          <h2>Emirhan Çam</h2>
+          <div class="badge">
+            <p><small>Front End Developer</small></p>
+          </div>
+          <div class="details">
+            <h3 class="text-light">Details</h3>
+            <div class="line"></div>
+            <ul>
+              <li style="color: greenyellow;"><i class="fa-solid fa-signal"></i></i><strong>Status:</strong> Online</li>
+              <li><i class="fa-solid fa-address-card"></i><strong>Username:</strong> @zzistaken</li>
+              <li><i class="fa-solid fa-envelope"></i><strong>Email:</strong> zzistaken@gmail.com</li>
+              <li><i class="fa-solid fa-phone"></i><strong>Phone:</strong> +90 (531) 506 49 30</li>
+              <li><i class="fa-solid fa-earth-americas"></i><strong>Country:</strong> Turkey</li>
+            </ul>
+          </div>
+        </div>
+        <div class="socialmedia">
+          <h2>Social Media</h2>
+          <p>You can find my social media accounts in this area.</p>
+          <div class="mediabox">
+            <img src="/images/social/github.png" alt="Github">
+            <div class="socialtexts">
+              <h3>Github</h3>
+              <span>@zzistaken</span>
+            </div>
+            <a href="https://github.com/zzistaken"><i class="fa-solid fa-link"></i></a>
+          </div>
+          <div class="mediabox">
+            <img src="/images/social/linkedin.png" alt="LinkedIn">
+            <div class="socialtexts">
+              <h3>LinkedIn</h3>
+              <span>@emirhan-cam</span>
+            </div>
+            <a href="https://www.linkedin.com/in/emirhan-cam/"><i class="fa-solid fa-link"></i></a>
+          </div>
+          <div class="mediabox">
+            <img src="/images/social/instagram.png" alt="Instagram">
+            <div class="socialtexts">
+              <h3>Instagram</h3>
+              <span>@emirrhancam</span>
+            </div>
+            <a href="https://www.instagram.com/emirrhancam/"><i class="fa-solid fa-link"></i></a>
+          </div>
+          <div class="mediabox">
+            <img src="/images/social/facebook.png" alt="Facebook">
+            <div class="socialtexts">
+              <h3>Facebook</h3>
+              <span>Not Connected</span>
+            </div>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+          <div class="mediabox">
+            <img src="/images/social/twitter.png" alt="Twitter">
+            <div class="socialtexts">
+              <h3>Twitter</h3>
+              <span>Not Connected</span>
+            </div>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="homecontent">
+        <video src="/videos/video.mp4" controls></video>
+        <div class="sound">
+          <audio src="/audios/billieeilish.mp3" controls></audio>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
